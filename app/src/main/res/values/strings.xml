@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Agendamento App</string>
+
+    <!-- Definição de tipo de serviço -->
+    <string-array name="service_types">
+        <item>Manicure (mãos)</item>
+        <item>Pedicure (pés)</item>
+        <item>Ambos</item>
+        <item>Pacote (Novo Cliente)</item>
+        <item>Pacote (Cliente Recorrente)</item>
+    </string-array>
+</resources>

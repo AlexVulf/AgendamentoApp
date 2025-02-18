@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Nome do Cliente -->
+    <EditText
+        android:id="@+id/etClienteNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome do Cliente" />
+
+    <!-- Data da Consulta -->
+    <EditText
+        android:id="@+id/etDataConsulta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Data (DD-MM-AAAA)"
+        android:inputType="date" />
+
+    <!-- Hora da Consulta -->
+    <EditText
+        android:id="@+id/etHoraConsulta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hora (HH:MM)"
+        android:inputType="time" />
+
+    <!-- Tipo de Serviço -->
+    <Spinner
+        android:id="@+id/spServiceType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/service_types" />
+
+    <!-- Botão de Salvar Agendamento -->
+    <Button
+        android:id="@+id/btnSalvarAgendamento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salvar Agendamento" />
+
+    <Button
+        android:id="@+id/btnVoltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voltar"
+        android:layout_gravity="start"
+    android:layout_marginBottom="16dp"/>
+
+</LinearLayout>

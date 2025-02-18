@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color> <!-- Cor principal -->
+    <color name="colorPrimaryDark">#3700B3</color> <!-- Cor de fundo para a barra de navegação -->
+    <color name="colorAccent">#03DAC5</color> <!-- Cor de destaque, como em botões ou controles -->
+</resources>
